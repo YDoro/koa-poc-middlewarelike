@@ -1,0 +1,26 @@
+{
+  "name": "koa-poc",
+  "version": "1.0.0",
+  "description": "A project to test diffrent ways to build a koa application",
+  "main": "dist/src/index.js",
+  "author": "YDoro",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.10",
+    "@types/koa-bodyparser": "^4.3.11",
+    "@types/koa-router": "^7.4.6",
+    "@types/node": "^20.8.7",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
